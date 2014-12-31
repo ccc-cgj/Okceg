@@ -11,6 +11,6 @@ The only thing available now is an interactive shell, and the only functions ava
 
 <strong>exit()</strong>, which exits the shell;
 
-<em>(Note that it can only do the four basic operations with two numbers only;</em>
+<em>(Note that math() can only do the four basic operations with two numbers only;</em>
 
 <em>there <strong>must</strong> be spaces before and after the operator)</em>
