@@ -1,5 +1,10 @@
 Okceg
 =====
+## ver 0.2
+
+yet under development
+
+## ver. 0.1
 
 a python-based programming method
 
