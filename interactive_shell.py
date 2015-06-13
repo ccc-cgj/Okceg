@@ -47,12 +47,37 @@
 #     else:
 #         print('nonsense')
 
+#below is Okceg v.2
+
+__author__ = "Vibius Vibidius Zosimus"
+__version__ = ".2"
+
 print('\n')
 
-print("hello_world!\n")
+print("Okceg IS: interactive shell of Okceg, based on python\n")
+
+print("now i am going to say 'hello_world!'.\nhello_world!\n")
+
+print("help:\n\tinput anything and hit 'enter';\n\tinput '1' and hit 'enter' to quit;\n")
 
 while 1:
-    if input(">>> ") == '1':
+    user_input = input(">>> ")
+    
+    #first-character identifier
+    print("the first character of your input is:", user_input[0])
+    
+    #input division
+    components = []
+    #step 1: get all numbers
+    numbers = ""
+    for jerry in user_input:
+        if isinstance(jerry, int):
+            numbers += jerry
+    #outputting all numbers
+    print("the numbers are:", numbers)
+    
+    #quitting
+    if user_input is '1':
         break
 
 print('\n')
